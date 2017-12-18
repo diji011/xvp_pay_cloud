@@ -35,6 +35,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -44,7 +58,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<includeSystemScope>true</includeSystemScope>
-					<mainClass>com.maming.TestController</mainClass>
+					<mainClass>com.maming.TestApplication</mainClass>
 					<executable>true</executable>
 					<addResources>true</addResources>
 				</configuration>
